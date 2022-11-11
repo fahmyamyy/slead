@@ -11,3 +11,6 @@ export function auth(req, res, next) {
         res.end(JSON.stringify(response))
     }
 }
+
+
+export default auth

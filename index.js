@@ -4,6 +4,7 @@ import cors from "cors";
 import bodyParser from "body-parser";
 import mongoose from "mongoose";
 import routes from './routes/routes.js'
+import auth from "./middleware/auth.js"
 
 dotenv.config();
 

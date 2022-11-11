@@ -1,5 +1,5 @@
-import User from '../models/user.js';
-import { countTime, Response, ymdNow } from '../helpers/general.js';
+import User from '../models/users.js';
+import { countTime, Response, ymdNow } from '../helpers/generalHelpers.js';
 
 
 export const getUsers = async (req, res) => {
